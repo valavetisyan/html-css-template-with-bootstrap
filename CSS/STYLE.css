@@ -1,0 +1,170 @@
+*  {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "roboto", sans-serif;
+
+
+}
+.header{
+    background-color: rgba(0, 0, 50, 0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    z-index: 200;
+}
+.btnn{
+    border-radius: 5px;
+    background-color: #43ba7f;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+
+i{
+    font-size: 64px;
+    color: #43ba7f;
+    width: 30px;
+}
+
+i:hover{
+    transform:translateY(20px) ;
+    transition:0.5s;
+}
+.color1{
+    color: #43ba7f;
+}
+.color2{
+    color: #ff511a;
+
+}
+.cal{
+    background-image: url("../img/cta-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.carousel_btn{
+    background-color: #ff511a;
+    border-radius: 5px;
+    border: none;
+}
+.carousel_btn:hover{
+    background-color: rgba(255,81,26,0.9);
+}
+.text1{
+    position: absolute;
+    left: 120px;
+    top: 160px;
+
+}
+.text1>h1{
+    font-size: 60px;
+}
+.text{
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+.text>h1{
+    font-size: 60px;
+    transition: 1.5s;
+    transform: translateX(120PX);
+}
+.text2{
+    position: absolute;
+    left: 120px;
+    top: 330px;
+    width: 100px;
+
+
+}
+.text3{
+    position: absolute;
+    left: 120px;
+    top: 380px;
+    width: 700px;
+    height: 78px;
+}
+.hr{
+    border: 3px solid;
+    border-radius: 20px;
+    color: #ffff;
+
+}
+.form{
+    background-image: url("../img/calculator-bg.jpg");
+
+
+}
+
+.container>h6{
+    color: #ff511a;
+}
+.carousel:hover{
+    cursor: grab;
+}
+i.fa.fa-quote-left:hover{
+    transform:translateY(0)
+}
+.footer{
+    background-color: #181d30;
+}
+.partners{
+    background-color: #212741;
+}
+.partner:hover{
+    opacity: 0.6;
+}
+.contact_img{
+    background-image:url("../img/slide-01.jpg");
+    background-position: 0,-1px;
+    height: 500px;
+
+}
+.text4>h2{
+    font-size: 60px;
+
+
+}
+
+.contact_hr{
+    border: 3px solid;
+    border-radius: 20px;
+    color: #fff;
+    width: 100px;
+}
+.contact_icon{
+    font-size: 35px;
+
+
+}
+.contact_icon:hover{
+    transform: translate(0);
+
+}
+
+
+.contact_card:hover{
+    transition: 2s;
+    animation: card 1s alternate;
+}
+@keyframes card {
+    0%{
+        bottom: 0;
+        left: 0;
+    }
+    100%{
+        bottom: 50px;
+        left: 0;
+    }
+}
+
+
