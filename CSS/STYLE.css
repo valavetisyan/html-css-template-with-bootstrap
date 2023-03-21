@@ -1,4 +1,4 @@
-*  {
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -6,7 +6,8 @@
 
 
 }
-.header{
+
+.header {
     background-color: rgba(0, 0, 50, 0.5);
     padding: 10px;
     display: flex;
@@ -19,7 +20,8 @@
     color: white;
     z-index: 200;
 }
-.btnn{
+
+.btnn {
     border-radius: 5px;
     background-color: #43ba7f;
     font-size: 16px;
@@ -27,58 +29,67 @@
     border: none;
 }
 
-i{
+i {
     font-size: 64px;
     color: #43ba7f;
     width: 30px;
 }
 
-i:hover{
-    transform:translateY(20px) ;
-    transition:0.5s;
+i:hover {
+    transform: translateY(20px);
+    transition: 0.5s;
 }
-.color1{
+
+.color1 {
     color: #43ba7f;
 }
-.color2{
+
+.color2 {
     color: #ff511a;
 
 }
-.cal{
+
+.cal {
     background-image: url("../img/cta-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-.carousel_btn{
+.carousel_btn {
     background-color: #ff511a;
     border-radius: 5px;
     border: none;
 }
-.carousel_btn:hover{
-    background-color: rgba(255,81,26,0.9);
+
+.carousel_btn:hover {
+    background-color: rgba(255, 81, 26, 0.9);
 }
-.text1{
+
+.text1 {
     position: absolute;
     left: 120px;
     top: 160px;
 
 }
-.text1>h1{
+
+.text1 > h1 {
     font-size: 60px;
 }
-.text{
+
+.text {
     position: absolute;
     left: 0;
     top: 100px;
 }
-.text>h1{
+
+.text > h1 {
     font-size: 60px;
     transition: 1.5s;
     transform: translateX(120PX);
 }
-.text2{
+
+.text2 {
     position: absolute;
     left: 120px;
     top: 330px;
@@ -86,82 +97,116 @@ i:hover{
 
 
 }
-.text3{
+
+.text3 {
     position: absolute;
     left: 120px;
     top: 380px;
     width: 700px;
     height: 78px;
 }
-.hr{
+
+.text5 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+}
+
+.text5 button {
+    color: white;
+    background-color: blue;
+    font-weight: 400;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    width: 600px;
+
+}
+
+.hr {
     border: 3px solid;
     border-radius: 20px;
     color: #ffff;
 
 }
-.form{
+
+.form {
     background-image: url("../img/calculator-bg.jpg");
 
 
 }
 
-.container>h6{
+.container > h6 {
     color: #ff511a;
 }
-.carousel:hover{
+
+.carousel:hover {
     cursor: grab;
 }
-i.fa.fa-quote-left:hover{
-    transform:translateY(0)
+
+i.fa.fa-quote-left:hover {
+    transform: translateY(0)
 }
-.footer{
+
+.footer {
     background-color: #181d30;
 }
-.partners{
+
+.partners {
     background-color: #212741;
 }
-.partner:hover{
+
+.partner:hover {
     opacity: 0.6;
 }
-.contact_img{
-    background-image:url("../img/slide-01.jpg");
-    background-position: 0,-1px;
+
+.contact_img {
+    background-image: url("../img/slide-01.jpg");
+    background-position: 0, -1px;
     height: 500px;
 
 }
-.text4>h2{
+
+.text4 > h2 {
     font-size: 60px;
 
 
 }
 
-.contact_hr{
+.contact_hr {
     border: 3px solid;
     border-radius: 20px;
     color: #fff;
     width: 100px;
 }
-.contact_icon{
+
+.contact_icon {
     font-size: 35px;
 
 
 }
-.contact_icon:hover{
+
+.contact_icon:hover {
     transform: translate(0);
 
 }
 
 
-.contact_card:hover{
+.contact_card:hover {
     transition: 2s;
     animation: card 1s alternate;
 }
+
 @keyframes card {
-    0%{
+    0% {
         bottom: 0;
         left: 0;
     }
-    100%{
+    100% {
         bottom: 50px;
         left: 0;
     }
